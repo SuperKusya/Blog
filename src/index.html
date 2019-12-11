@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:800|Roboto:400,400i,700,900&display=swap&subset=cyrillic-ext" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="./css/main.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Блог веб-разработчика</title>
+</head>
+<body>
+    <header class="header">
+      <div class="header__container header__layout">
+        <div class="header__navbar navbar">
+          <div class="navbar__logo logo"><a class="logo__link" href="index.html">АТ</a></div>
+          <nav class="nav" role="navigation">
+            <div class="nav__toogle">
+                <i class="fas fa-bars menu"></i>
+            </div>
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link" href="#">Блог</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Об авторе</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Услуги</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__info">
+            <div class="header__subtitle">Имя Фамилия</div>
+            <h1 class="header__title">Блог веб-разработчика</h1>
+        </div>
+      </div>
+    </header>
+    
+    <div class="main-content">
+      <main class="blog">
+        <div class="blog__post">
+          <div class="blog__image">
+             <a href="#">
+               <img class="image" src="img/blog-post-img-1.jpg" alt="Laptop with cap">
+              </a>
+          </div>
+          <div class="blog__info">
+            <div class="blog__details details">Graphics Design . 23 July, 2018</div>
+            <h2 class="blog__title"><a class="blog__link" href="#">Challange yourself & win the future.</a></h2>
+            <div class="blog__text">
+              This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…
+            </div>
+            <a href="#" class="blog__readmore">Continue Reading</a>
+          </div>
+        </div>
+
+        <div class="blog__post">
+          <div class="blog__image">
+            <img class="image" src="img/blog-post-img-2.jpg" alt="A man meditates on a bridge in front of a pond and mountains.">
+          </div>
+          <div class="blog__info">
+            <div class="blog__details details">Graphics Design . 23 July, 2018</div>
+            <h2 class="blog__title">Challange yourself & win the future.</h2>
+            <p class="blog__text">
+              This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…
+            </p>
+            <a href="#" class="blog__readmore">Continue Reading</a>
+          </div>
+        </div>
+
+        <div class="blog__post">
+          <div class="blog__image">
+            <img class="image" src="img/blog-post-img-3.jpg" alt="Сode in a text editor on a computer monitor">
+          </div>
+          <div class="blog__info">
+            <div class="blog__details details">Graphics Design . 23 July, 2018</div>
+            <h2 class="blog__title">Challange yourself & win the future.</h2>
+            <p class="blog__text">
+              This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…
+            </p>
+            <a href="#" class="blog__readmore">Continue Reading</a>
+          </div>
+        </div>
+
+        <div class="blog__post">
+          <div class="blog__image">
+            <img class="image" src="img/blog-post-img-4.jpg" alt="Adventure-backpacker and clear sky">
+          </div>
+          <div class="blog__info">
+            <div class="blog__details details">Graphics Design . 23 July, 2018</div>
+            <h2 class="title">Challange yourself & win the future.</h2>
+            <p class="blog__text">
+              This response is important for our ability to learn from mistakes, but it alsogives rise to self-criticism, because it is part of the threat-protection system. In other words…
+            </p>
+            <a href="#" class="blog__readmore">Continue Reading</a>
+            </div>
+          </div>
+          
+        <div class="blog__pagination pagination">
+          <a class="pagination__item arrow -previous" href="#"></a>
+          <a class="number pagination__item" href="#">1</a>
+          <a class="number pagination__item" href="#">2</a>
+          <a class="number pagination__item" href="#">3</a>
+          <a class="number pagination__item" href="#">4</a>
+          <a class="pagination__item -intermediate" href="#">...</a>
+          <a class="pagination__item -last" href="#">Последняя</a>
+          <a class="pagination__item arrow -next" href="#"></a>
+        </div>
+      </main>
+      <aside class="sidebar">
+        <div class="sidebar__section search">
+          <form class="search__form" action="">
+            <input class="search__input" type="search"  placeholder="Поиск..." aria-label="Search through site content">
+            <button class="search__button" type="submit">
+              <img src="./img/search_icon.png" alt="loupe">
+            </button>
+          </form>
+        </div>
+        
+        <section class="sidebar__section categories">
+          <h3 class="section-title">Категории</h3>
+          <ul class="categories__list">
+            <li class="categories__item"><a href="#" class="categories__link">Веб-дизайн (10)</a></li>
+            <li class="categories__item"><a href="#" class="categories__link">Графика (06)</a></li>
+            <li class="categories__item"><a href="#" class="categories__link">Веб Разработка (12)</a></li>
+            <li class="categories__item"><a href="#" class="categories__link">Мобильные приложения (28)</a></li>
+            <li class="categories__item"><a href="#" class="categories__link">Путешествия (15)</a></li>
+            <li class="categories__item"><a href="#" class="categories__link">Технологии (50)</a></li>
+            <li class="categories__item"><a href="#" class="categories__link">другое (05)</a></li>
+          </ul>
+        </section>
+        
+        <section class="sidebar__section new-articles">
+          <h3 class="section-title">Новые записи</h3>
+          <div class="new-articles__list">
+              <article class="article">
+                <div class="article__image">
+                  <a class="article__link" href="#">
+                    <img src="img/post-new-1.jpg" alt="article-image">
+                  </a>
+                </div>
+                <div class="article__about">
+                  <header class="article__header">
+                    <h4 class="article__title">
+                      <a class="article__link" href="#">10 days challange boost for online visitors.</a>
+                    </h4>
+                  </header>
+                  <time class="article__datetime details -dg" datetime="2018-07-23">23 July, 2018</time>
+                </div>
+              </article> 
+              <article class="article">
+                <div class="article__image">
+                  <a class="article__link" href="#">
+                    <img src="img/post-new-1.jpg" alt="article-image">
+                  </a>
+                </div>
+                <div class="article__about">
+                  <header class="article__header">
+                    <h3 class="article__title">
+                      <a class="article__link" href="#">10 days challange boost for online visitors.</a>
+                    </h3>
+                  </header>
+                  <time class="article__datetime details -dg" datetime="2018-07-23">23 July, 2018</time>
+                </div>
+              </article>
+            </div>
+        </section>
+    
+        <section class="sidebar__section tags">
+          <h3 class="section-title">Теги</h3>
+          <div class="tags__list">
+            <a class="tags__item" href="#">Ideas</a>
+            <a class="tags__item" href="#">Education</a>
+            <a class="tags__item" href="#">Design</a>
+            <a class="tags__item" href="#">Development</a>
+            <a class="tags__item" href="#">Branding</a>
+          </div>
+        </section>
+  
+          <aside class="ads">
+            <div class="ads__wrapper">
+              <div class="ads__title">рекламный блок</div>
+              <div class="ads__description">Только летом Скидки до 70%</div>
+            </div>
+          </aside>
+      </aside>
+    </div>
+
+    <div class="divider"></div>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__info">
+          <div class="footer__logo logo"><a class="logo__link" href="index.html" title="">АТ</a></div>
+          <a class="footer__email email" href="mailto:hello@mysite.com">hello@mysite.com</a>
+          <a class="footer__phone" href="+79035555555">+7 (903) 555-55-55</a>
+        </div>
+        <div class="footer__nav" role="navigation">
+          <div class="footer__item">
+            <h5 class="footer__header">Услуги</h5>
+            <ul class="footer__list">
+              <li><a class="link" href="#">Веб-дизайн</a></li>
+              <li><a class="link" href="#">Разработка</a></li>
+              <li><a class="link" href="#">Сайты на WordPress</a></li>
+              <li><a class="link" href="#">Интернет маркетинг</a></li>
+              <li><a class="link" href="#">Копирайтинг</a></li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h5 class="footer__header">Об авторе</h5>
+            <ul class="footer__list">
+              <li><a class="link" href="#">Обо мне</a></li>
+              <li><a class="link" href="#">Портфолио</a></li>
+              <li><a class="link" href="#">Команда</a></li>
+              <li><a class="link" href="#">Цены</a></li>
+              <li><a class="link" href="#">Блог</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__item">
+            <h5 class="footer__header">Контакты</h5>
+            <address class="footer__address">Москва, улица Новый Арбат,  д.21, ст. 1</address>
+            <div class="footer__social-links social-links">
+              <a href="#" class="social-links__link">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="11px" height="17px"  viewBox="0 0 11 17">
+               <path fill-rule="evenodd"  
+                d="M7.0931396,15.999512 C7.0931396,15.999512 7.0931396,9.699707 7.0931396,9.699707 C7.0931396,9.699707 9.133301,9.699707 9.133301,9.699707 C9.133301,9.699707 9.466553,6.899414 9.466553,6.899414 C9.466553,6.899414 7.0931396,6.899414 7.0931396,6.899414 C7.0931396,6.899414 7.0931396,5.536133 7.0931396,5.536133 C7.0931396,4.8149414 7.112793,4.0996094 8.1875,4.0996094 C8.1875,4.0996094 9.275879,4.0996094 9.275879,4.0996094 C9.275879,4.0996094 9.275879,2.0976562 9.275879,2.0976562 C9.275879,2.0673828 8.340942,1.9995117 7.3950195,1.9995117 C5.4195557,1.9995117 4.1827393,3.159668 4.1827393,5.289551 C4.1827393,5.289551 4.1827393,6.899414 4.1827393,6.899414 C4.1827393,6.899414 1.9998779,6.899414 1.9998779,6.899414 C1.9998779,6.899414 1.9998779,9.699707 1.9998779,9.699707 C1.9998779,9.699707 4.1827393,9.699707 4.1827393,9.699707 C4.1827393,9.699707 4.1827393,15.999512 4.1827393,15.999512 C4.1827393,15.999512 7.0931396,15.999512 7.0931396,15.999512 Z"/></svg>
+              </a>
+              <a href="#" class="social-links__link">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="15px" height="16px"  viewBox="0 0 15 16">
+                 <path fill-rule="evenodd"
+                  d="M13.392822,7.301758 C13.392822,7.301758 7.626709,7.301758 7.626709,7.301758 C7.626709,7.901367 7.626709,9.101074 7.622925,9.700684 C7.622925,9.700684 10.964355,9.700684 10.964355,9.700684 C10.836304,10.300293 10.382324,11.139648 9.740845,11.5625 C9.740234,11.562012 9.739624,11.566406 9.738403,11.56543 C8.88562,12.128418 4.578125,10.878418 4.1573486,9.671875 C4.15979,9.669922 4.161621,9.65332 4.163452,9.651855 C3.9000244,8.90332 3.9000244,7.901367 4.163452,7.301758 C4.163452,7.301758 4.162842,7.301758 4.162842,7.301758 C4.5021973,6.199707 9.126953,4.9375 10.002441,5.7563477 C10.1188965,5.642578 11.613647,4.1831055 11.72583,4.064453 C8.734985,1.3554688 3.9459229,2.3085938 2.1540527,5.8061523 C2.1540527,5.8061523 2.1533203,5.8061523 2.1533203,5.8061523 C2.1533203,5.8061523 2.1540527,5.8061523 2.1502686,5.8129883 C2.1502686,5.8129883 2.1502686,5.8129883 2.1502686,5.8129883 C1.263794,7.53125 1.3005371,9.555176 2.156372,11.191406 C2.1540527,11.193359 2.1520996,11.194336 2.1502686,11.196289 C2.9259033,12.701172 4.3374023,13.855469 6.038086,14.294922 C7.8447266,14.768555 10.144043,14.444824 11.684204,13.052246 C11.684692,13.052734 11.685425,13.053223 11.686035,13.053711 C12.990845,11.878418 13.803223,9.875977 13.392822,7.301758 C13.392822,7.301758 13.392822,7.301758 13.392822,7.301758 Z"/>
+                 </svg>
+              </a>
+              <a href="#" class="social-links__link">
+                <svg alt="twitter" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="16px" height="14px"  viewBox="0 0 16 14">
+               <path fill-rule="evenodd"
+                d="M6.088379,12.999512 C10.9938965,12.999512 13.677124,4.8569336 13.669312,4.7373047 C14.191284,4.345215 14.641724,3.8574219 14.999878,3.2998047 C14.513672,3.5249023 13.996948,3.6723633 13.468506,3.7373047 C14.024902,3.3901367 14.441528,2.8447266 14.641113,2.2006836 C14.1171875,2.524414 13.544556,2.7524414 12.947144,2.875 C11.937134,1.7568359 8.1866455,4.4438477 8.401733,5.4086914 C6.2574463,5.2958984 4.2592773,4.241211 2.904663,2.506836 C2.1968994,3.775879 2.558838,5.398926 3.730835,6.213867 C3.3063965,6.201172 2.8909912,6.0820312 2.5198975,5.866699 C2.5198975,5.866699 2.5198975,5.9018555 2.5198975,5.9018555 C2.5205078,7.224121 3.4155273,8.362305 4.659668,8.624512 C4.26709,8.73584 3.8549805,8.752441 3.4559326,8.671875 C3.8049316,9.803223 4.8065186,10.578613 5.9473877,10.600586 C5.0028076,11.373535 2.2111816,11.778809 1.9998779,11.752441 C3.2199707,12.566895 4.638916,12.999512 6.088379,12.997559 C6.088379,12.997559 6.088379,12.999512 6.088379,12.999512 Z"/>
+               </svg>
+              </a>
+            </div>
+          </div>
+      </div>
+      <div class="footer__copyright">© 2019 [Имя] [Фамилия]</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/menu.js"></script>
+    <div class="mask"></div>
+</body>
+</html>
+   
