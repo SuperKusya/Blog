@@ -31,7 +31,7 @@ img {
 
   color: $color-header-text;
 
-  background: url(../img/header_bg.jpg) center / cover no-repeat #575759;
+  background: url(./img/header_bg.jpg) center / cover no-repeat #575759;
 
   &__container {
     max-width: 1420px;
@@ -460,7 +460,7 @@ img {
   color: #ffffff;
 
   background: #000000;
-  background-image: url(../img/ads-bg.png);
+  background-image: url(./img/ads-bg.png);
 
   &__title {
     margin-bottom: 35px;
