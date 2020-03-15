@@ -26,14 +26,16 @@ const path = {
         css: 'dist/',
         js: 'dist/js/',
         img: 'dist/img/',
-        icons: 'dist/icons/'
+        icons: 'dist/icons/',
+        favicon: "dist/favicon"
     },
     src: {
         html: ['src/*.html', 'src/*.ico'],
         scss: 'src/sass/*.+(scss|sass)',
         js: 'src/js/*.js',
         img: 'src/img/**/*.*',
-        icons: 'src/icons/**/*.svg'
+        icons: 'src/icons/**/*.svg',
+        favicon: "src/favicon/*.*"
     },
     clean: './dist/',
     deploy: 'dist/**/*'
@@ -127,8 +129,9 @@ function images() {
         .pipe(dest(path.dist.img));
 }
 
-
-
+function favicon() {
+    return src(path.src.favicon).pipe(dest(path.dist.favicon));
+}
 
 function server() {
     browserSync.init({
@@ -150,6 +153,6 @@ function deploy() {
         .pipe(ghPages());
 }
 
-exports.build = series(clean, parallel(html, styles, images, js, svg));
+exports.build = series(clean, parallel(html, styles, images, js, svg, favicon));
 exports.default = series(exports.build, parallel(look, server));
 exports.deploy = series(exports.build, deploy);
