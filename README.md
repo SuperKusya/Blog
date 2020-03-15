@@ -1,5 +1,14 @@
 # Blog
 
+https://superkusya.github.io/Blog/
+
+
+
+I created responsive HTML layout with small JS logic (menu) from .psd
+
+HTML/CSS/JS. Used Gulp for building.
+Adhered to the methodology BEM.
+
 <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -7,10 +16,6 @@
             alt="Valid CSS!" />
     </a>
 </p>
+![Screenshot](https://i.imgur.com/453Fzr8.png)
+![Screenshot](https://i.imgur.com/7VQmeH1.png)
 
-I created responsive HTML layout with small JS logic (menu) from .psd
-
-HTML/CSS/JS. Used Gulp for building.
-Adhered to the methodology BEM.
-
-![Screenshot](https://i.imgur.com/vhgvLQ0.jpg)
