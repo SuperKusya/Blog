@@ -5,6 +5,7 @@ https://superkusya.github.io/Blog/
 HTML/CSS/JS
 
 Description: I created responsive HTML layout with small JS logic (menu) from .psd
+
 Technology: 
 1. Used Gulp for building.
 2. Adhered to the methodology BEM.
