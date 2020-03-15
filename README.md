@@ -22,5 +22,5 @@ Technology:
     </a>
 </p>
 
-<div align="center">![Screenshot](https://i.imgur.com/7VQmeH1.png) </div>
+![Screenshot](https://i.imgur.com/7VQmeH1.png)
 
