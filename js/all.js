@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded",(function(){let e=document.querySelector(".mask"),t=document.querySelector(".nav__list");document.querySelector(".menu").addEventListener("click",(function(){t.classList.toggle("active"),e.classList.toggle("visible")})),e.addEventListener("click",(function(){t.classList.remove("active"),e.classList.remove("visible")}))})),
+window.addEventListener("DOMContentLoaded",(function(){let e=document.querySelector(".mask"),t=document.querySelector(".nav__list");document.querySelector(".nav__menu").addEventListener("click",(function(){t.classList.toggle("active"),e.classList.toggle("visible")})),e.addEventListener("click",(function(){t.classList.remove("active"),e.classList.remove("visible")}))})),
 /*!
  * @copyright Copyright (c) 2017 IcoMoon.io
  * @license   Licensed under MIT license
