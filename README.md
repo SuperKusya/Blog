@@ -10,6 +10,7 @@ Technology:
 1. Used Gulp for building.
 2. Adhered to the methodology BEM.
 3. All files are minified
+4. Support IE11
 
 ✔️ Markup Validation Service
 ✔️ CSS Validation Service
